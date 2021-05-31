@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+
+[[mods]]
+modId="bca_mod_csfair2021_eclcckjk"
+version="1.0"
+displayName="BCA Mod"
+logoFile="logo.png"
+credits="Thanks to TurtyWurty on Youtube"
+authors="Evan Ciccarelli, Leo Ciccarelli, Christopher Kalish, and Jeremy Kurian"
+description='''
+Our project for CS Fair 2021
+'''
+[[dependencies.bca_mod_csfair2021_eclcckjk]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bca_mod_csfair2021_eclcckjk]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

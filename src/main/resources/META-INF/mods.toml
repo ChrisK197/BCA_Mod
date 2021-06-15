@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[32,)"
 license="All rights reserved"
 
 
@@ -15,7 +15,7 @@ A mod that adds more foods for CS fair 2021
 [[dependencies.bca_food_mod]]
     modId="forge"
     mandatory=true
-    versionRange="[36,)"
+    versionRange="[32,)"
     ordering="NONE"
     side="BOTH"
 

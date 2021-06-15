@@ -28,8 +28,8 @@ public class ModOreGen {
             else if (biome.getCategory() == Biome.Category.THEEND){
             }
             else{
-                if(biome == Biomes.MOUNTAINS) {
-                    genOre(biome, 4, 3, 3, 20, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.SALT_ORE.get().getDefaultState(), 30);
+                if(biome == Biomes.MOUNTAINS || biome == Biomes.DESERT_HILLS || biome == Biomes.WOODED_HILLS || biome == Biomes.TAIGA_HILLS || biome == Biomes.MOUNTAIN_EDGE || biome == Biomes.JUNGLE_HILLS || biome == Biomes.BIRCH_FOREST_HILLS || biome == Biomes.SNOWY_TAIGA_HILLS || biome == Biomes.GIANT_TREE_TAIGA_HILLS || biome == Biomes.GRAVELLY_MOUNTAINS) {
+                    genOre(biome, 7, 3, 3, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.SALT_ORE.get().getDefaultState(), 10);
                 }
             }
         }

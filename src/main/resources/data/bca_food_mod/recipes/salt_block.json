@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "bca_food_mod:salt"
+    }
+  },
+  "result": {
+    "item": "bca_food_mod:salt_block",
+    "count": 1
+  }
+}

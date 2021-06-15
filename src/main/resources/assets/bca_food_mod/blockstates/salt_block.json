@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "bca_food_mod:block/salt_block" }
+  }
+}

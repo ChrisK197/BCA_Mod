@@ -1,11 +1,8 @@
 package com.eclcjkcc.bca_mod.util;
 
+import com.eclcjkcc.bca_mod.blocks.*;
 import com.eclcjkcc.bca_mod.items.*;
 import com.eclcjkcc.bca_mod.BCA_Mod;
-import com.eclcjkcc.bca_mod.blocks.HerbBase;
-import com.eclcjkcc.bca_mod.blocks.HerbItemBase;
-import com.eclcjkcc.bca_mod.blocks.SaltOreBase;
-import com.eclcjkcc.bca_mod.blocks.SaltOreItemBase;
 import com.eclcjkcc.bca_mod.items.*;
 import com.eclcjkcc.bca_mod.tools.ModItemTier;
 import net.minecraft.block.Block;
@@ -49,10 +46,12 @@ public class RegistryHandler {
 
     //Blocks
     public static final RegistryObject<Block> SALT_ORE = BLOCKS.register("salt_ore", SaltOreBase::new);
+    public static final RegistryObject<Block> SALT_BLOCK = BLOCKS.register("salt_block", SaltBlockBase::new);
     public static final RegistryObject<Block> HERB = BLOCKS.register("herb", HerbBase::new);
 
     //Block Items
     public static final RegistryObject<Item> SALT_ORE_ITEM = ITEMS.register("salt_ore", () -> new SaltOreItemBase(SALT_ORE.get()));
+    public static final RegistryObject<Item> SALT_BLOCK_ITEM = ITEMS.register("salt_block", () -> new SaltBlockItemBase(SALT_BLOCK.get()));
     public static final RegistryObject<Item> HERB_ITEM = ITEMS.register("herb", () -> new HerbItemBase(HERB.get()));
 
     //Events

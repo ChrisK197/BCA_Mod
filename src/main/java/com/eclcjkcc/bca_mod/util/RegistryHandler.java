@@ -42,7 +42,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> ROSEMARY = ITEMS.register("rosemary", RosemaryBase::new);
 
     //Tools
-    public static final RegistryObject<SwordItem> SCRAPER = ITEMS.register("scraper", () -> new SwordItem(ModItemTier.SCRAPER, 0, 0, new Item.Properties().group(ItemGroup.TOOLS).setNoRepair()));
+    public static final RegistryObject<SwordItem> SCRAPER = ITEMS.register("scraper", () -> new SwordItem(ModItemTier.SCRAPER, 0, 0, new Item.Properties().group(BCA_Mod.MOD_GROUP).setNoRepair()));
 
     //Blocks
     public static final RegistryObject<Block> SALT_ORE = BLOCKS.register("salt_ore", SaltOreBase::new);

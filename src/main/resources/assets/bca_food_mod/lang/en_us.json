@@ -16,5 +16,6 @@
   "item.bca_food_mod.cream_bucket": "Cream Bucket",
   "item.bca_food_mod.cheese": "Cheddar Cheese",
   "item.bca_food_mod.white_cheese": "Swiss Cheese",
-  "item.bca_food_mod.scraper": "Scraper"
+  "item.bca_food_mod.scraper": "Scraper",
+  "itemGroup.bca_tab": "More Foods Mod"
 }

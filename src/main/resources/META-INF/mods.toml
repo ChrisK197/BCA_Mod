@@ -4,24 +4,24 @@ license="All rights reserved"
 
 
 [[mods]]
-modId="bca_mod_csfair2021_eclcckjk"
+modId="bca_food_mod"
 version="1.0"
-displayName="morefoods Mod"
+displayName="BCA Mod"
 logoFile="logo.png"
 authors="Evan Ciccarelli, Leo Ciccarelli, Christopher Kalish, and Jeremy Kurian"
 description='''
 A mod that adds more foods for CS fair 2021
 '''
-[[dependencies.bca_mod_csfair2021_eclcckjk]]
+[[dependencies.bca_food_mod]]
     modId="forge"
     mandatory=true
     versionRange="[36,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.bca_mod_csfair2021_eclcckjk]]
+[[dependencies.bca_food_mod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5,1.17)"
+    versionRange="[1.16.1)"
     ordering="NONE"
     side="BOTH"

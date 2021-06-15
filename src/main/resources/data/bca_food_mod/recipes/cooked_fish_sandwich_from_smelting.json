@@ -1,0 +1,9 @@
+ {
+   "type": "minecraft:smelting",
+   "ingredient": {
+     "item": "bca_food_mod:raw_fish_sandwich"
+   },
+   "result": "bca_food_mod:cooked_fish_sandwich",
+   "experience": 0.35,
+   "cookingtime": 200
+ }

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "CC ",
+    "CC ",
+    "SS "
+  ],
+  "key":
+  {
+    "C":
+    {
+      "item": "bca_food_mod:cream"
+    },
+    "S":
+    {
+      "item": "bca_food_mod:salt"
+    }
+  },
+
+  "result":
+  {
+    "item": "bca_food_mod:white_cheese",
+    "count": 1
+  }
+}

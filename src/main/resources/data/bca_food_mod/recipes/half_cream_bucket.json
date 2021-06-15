@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "bca_food_mod:salt"
+    }
+  ],
+  "result":
+  {
+    "item": "bca_food_mod:half_cream_bucket",
+    "count": 1
+  }
+}

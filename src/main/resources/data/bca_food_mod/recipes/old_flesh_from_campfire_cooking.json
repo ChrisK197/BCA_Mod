@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": "bca_food_mod:old_flesh",
+  "experience": 0.05,
+  "cookingtime": 1000
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bca_food_mod:half_cream_bucket"
+  },
+  "result": "bca_food_mod:cream_bucket",
+  "experience": 0.3,
+  "cookingtime": 1000
+}

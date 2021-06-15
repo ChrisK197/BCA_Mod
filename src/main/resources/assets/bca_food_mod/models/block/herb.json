@@ -1,0 +1,6 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "bca_food_mod:blocks/herb"
+  }
+}

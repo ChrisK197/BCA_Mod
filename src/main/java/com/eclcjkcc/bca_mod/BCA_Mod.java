@@ -9,7 +9,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("BCA_Mod")
+@Mod("bca_food_mod")
 public class BCA_Mod
 {
     private static final Logger LOGGER = LogManager.getLogger();

@@ -22,6 +22,6 @@ A mod that adds more foods for CS fair 2021
 [[dependencies.bca_food_mod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5]"
+    versionRange="[1.16.1]"
     ordering="NONE"
     side="BOTH"

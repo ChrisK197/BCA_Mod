@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "bca_food_mod:cheese"
+    }
+  },
+  "result": {
+    "item": "bca_food_mod:cheese_block",
+    "count": 1
+  }
+}

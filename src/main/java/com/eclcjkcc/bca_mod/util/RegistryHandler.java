@@ -48,11 +48,16 @@ public class RegistryHandler {
     public static final RegistryObject<Block> SALT_ORE = BLOCKS.register("salt_ore", SaltOreBase::new);
     public static final RegistryObject<Block> SALT_BLOCK = BLOCKS.register("salt_block", SaltBlockBase::new);
     public static final RegistryObject<Block> HERB = BLOCKS.register("herb", HerbBase::new);
+    public static final RegistryObject<Block> CHEESE_BLOCK = BLOCKS.register("cheese_block", CheeseBlockBase::new);
+    public static final RegistryObject<Block> WHITE_CHEESE_BLOCK = BLOCKS.register("white_cheese_block", WhiteCheeseBlockBase::new);
 
     //Block Items
     public static final RegistryObject<Item> SALT_ORE_ITEM = ITEMS.register("salt_ore", () -> new SaltOreItemBase(SALT_ORE.get()));
     public static final RegistryObject<Item> SALT_BLOCK_ITEM = ITEMS.register("salt_block", () -> new SaltBlockItemBase(SALT_BLOCK.get()));
     public static final RegistryObject<Item> HERB_ITEM = ITEMS.register("herb", () -> new HerbItemBase(HERB.get()));
+    public static final RegistryObject<Item> CHEESE_BLOCK_ITEM = ITEMS.register("cheese_block", () -> new CheeseBlockItemBase(CHEESE_BLOCK.get()));
+    public static final RegistryObject<Item> WHITE_CHEESE_BLOCK_ITEM = ITEMS.register("white_cheese_block", () -> new WhiteCheeseBlockItemBase(WHITE_CHEESE_BLOCK.get()));
+
 
     //Events
 

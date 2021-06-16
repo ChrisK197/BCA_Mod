@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bca_food_mod:blocks/white_cheese_block"
+  }
+}

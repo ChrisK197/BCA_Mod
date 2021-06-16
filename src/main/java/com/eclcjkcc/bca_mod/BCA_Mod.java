@@ -1,6 +1,7 @@
 package com.eclcjkcc.bca_mod;
 
 import com.eclcjkcc.bca_mod.util.RegistryHandler;
+import com.eclcjkcc.bca_mod.world.gen.ModPlantGen;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
